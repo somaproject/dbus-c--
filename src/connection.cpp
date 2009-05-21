@@ -74,9 +74,10 @@ Connection::Private::~Private()
 			dbus_bus_release_name(conn, i->c_str(), NULL);
 			++i;
 		}
-		dbus_connection_close(conn);
+		//dbus_connection_close(conn);
 	}
 	dbus_connection_unref(conn);
+
 }
 
 void Connection::Private::init()
