@@ -1,0 +1,6 @@
+dbus-c++ (1.0-1~soma-ubuntu1) jaunty; urgency=low
+
+  * Initial release 
+
+ -- Stuart Layton <slayton@mit.edu>  Mon, 11 Jun 2009 09:54:22 -0400
+

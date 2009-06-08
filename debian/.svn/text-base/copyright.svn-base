@@ -1,0 +1,24 @@
+This package was debianized by Stuart Layton <slayton@mit.edu> on
+Mon, 11 Aug 2008 09:54:22 -0400.
+
+It was downloaded from: http://freedesktop.org/wiki/Software/dbus-c%2B%2B
+
+Upstream Author(s): 
+
+	Paolo Durante	<shackan@gmail.com>
+
+Copyright: 
+
+	Copyright 2008
+	Stuart Layton <slayton@mit.edu>
+	Massachusetts Institute of Technology
+
+License:
+
+	The packages is released under GPL 2
+
+The Debian packaging is (C) 2008, Stuart Layton <slayton@mit.edu> and
+is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+
+# Please also look if there are files or directories which have a
+# different copyright/license attached and list them here.

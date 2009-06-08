@@ -1,0 +1,11 @@
+Source: dbus-c++
+Section: libs
+Priority: extra
+Maintainer: Stuart Layton <slayton@mit.edu>
+Build-Depends: debhelper (>= 5), autotools-dev
+Standards-Version: 3.7.2
+
+Package: dbus-c++
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: DBUS-C++ Library

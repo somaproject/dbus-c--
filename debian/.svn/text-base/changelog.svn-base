@@ -1,0 +1,6 @@
+dbus-c++ (1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Stuart Layton <slayton@mit.edu>  Mon, 11 Aug 2008 09:54:22 -0400
+
