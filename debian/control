@@ -1,4 +1,4 @@
-Source: dbus-c++-1
+Source: dbus-c++
 Priority: extra
 Maintainer: Stuart Layton <slayton@mit.edu>
 Build-Depends: debhelper (>= 7), autotools-dev, cdbs, dbus, libdbus-1-dev,
@@ -9,7 +9,7 @@ Section: libs
 Package: libdbus-c++-dev
 Section: libdevel
 Architecture: any
-Depends: libdbus-c++
+Depends: libdbus-c++0, ${misc:Depends}
 Description: Dbus-C++ development library
  <insert long description, indented with spaces>
 
@@ -21,7 +21,7 @@ Description: DBus-C++ runtime Library
  <insert long description, indented with spaces>
 
 Package: dbus-c++-tools
-Section: science
+Section: devel
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: DBus-C++ binaries

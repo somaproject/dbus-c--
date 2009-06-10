@@ -1,4 +1,10 @@
-dbus-c++-1 (1.0-1~soma-ubuntu5) jaunty; urgency=low
+dbus-c++ (1.0-1~soma-ubuntu6) jaunty; urgency=low
+
+  * repacked correctly as a lib, dev, and binary package
+
+ -- Stuart Layton <slayton@mit.edu>  Wed, 10 Jun 2009 12:58:26 -0400
+
+dbus-c++ (1.0-1~soma-ubuntu5) jaunty; urgency=low
 
   * more build-depends updated
 
