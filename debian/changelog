@@ -1,6 +1,7 @@
-dbus-c++ (1.0-1~soma-ubuntu1) jaunty; urgency=low
+dbus-c++-1 (1.0-1~soma-ubuntu5) jaunty; urgency=low
 
-  * Initial release 
+  * more build-depends updated
 
- -- Stuart Layton <slayton@mit.edu>  Mon, 11 Jun 2009 09:54:22 -0400
+ -- Stuart Layton <slayton@mit.edu>  Tue, 09 Jun 2009 19:00:54 -0400
+
 

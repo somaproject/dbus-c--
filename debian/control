@@ -1,12 +1,28 @@
-Source: dbus-c++
-Section: libs
+Source: dbus-c++-1
 Priority: extra
 Maintainer: Stuart Layton <slayton@mit.edu>
-Build-Depends: debhelper (>= 5), autotools-dev, cdbs
-Standards-Version: 3.8
+Build-Depends: debhelper (>= 7), autotools-dev, cdbs, dbus, libdbus-1-dev,
+               libglib2.0-dev, libdbus-glib-1-2, libexpat1-dev
+Standards-Version: 3.8.0
+Section: libs
 
-Package: dbus-c++
+Package: libdbus-c++-dev
+Section: libdevel
+Architecture: any
+Depends: libdbus-c++
+Description: Dbus-C++ development library
+ <insert long description, indented with spaces>
+
+Package: libdbus-c++
+Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: DBUS-C++ Library
+Description: DBus-C++ runtime Library
+ <insert long description, indented with spaces>
 
+Package: dbus-c++-tools
+Section: science
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: DBus-C++ binaries
+ <insert long description, indented with spaces>
