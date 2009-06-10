@@ -1,3 +1,9 @@
+dbus-c++ (1.0-1~soma-ubuntu7) jaunty; urgency=low
+
+  * updated libdbus-c++ to libdbus-c++0
+
+ -- Stuart Layton <slayton@mit.edu>  Wed, 10 Jun 2009 13:25:28 -0400
+
 dbus-c++ (1.0-1~soma-ubuntu6) jaunty; urgency=low
 
   * repacked correctly as a lib, dev, and binary package
