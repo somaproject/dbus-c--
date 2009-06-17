@@ -1,3 +1,21 @@
+dbus-c++ (1.0-1~soma-ubuntu11) jaunty; urgency=low
+
+  * renamed libdbus-c++ to libdbus-c++-1 and added libdbus-1-dev dependency to libdbus-c++-dev
+
+ -- Stuart Layton <slayton@mit.edu>  Fri, 12 Jun 2009 11:14:54 -0400
+
+dbus-c++ (1.0-1~soma-ubuntu9) jaunty; urgency=low
+
+  * missing configure script
+
+ -- Stuart Layton <slayton@mit.edu>  Fri, 12 Jun 2009 10:44:05 -0400
+
+dbus-c++ (1.0-1~soma-ubuntu8) jaunty; urgency=low
+
+  * Wasn't finding so file... fixed naming issues
+
+ -- Stuart Layton <slayton@mit.edu>  Fri, 12 Jun 2009 10:35:08 -0400
+
 dbus-c++ (1.0-1~soma-ubuntu7) jaunty; urgency=low
 
   * updated libdbus-c++ to libdbus-c++0

@@ -9,11 +9,11 @@ Section: libs
 Package: libdbus-c++-dev
 Section: libdevel
 Architecture: any
-Depends: libdbus-c++0, ${misc:Depends}
+Depends: libdbus-c++-1, libdbus-1-dev, ${misc:Depends}
 Description: Dbus-C++ development library
  <insert long description, indented with spaces>
 
-Package: libdbus-c++0
+Package: libdbus-c++-1
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
